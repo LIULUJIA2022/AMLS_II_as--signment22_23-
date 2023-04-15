@@ -1,51 +1,49 @@
-# AMLS_II_as--signment22_23-
+# AMLS_II_as--signment22_23
 
-[train/test]_images the image files.
+## student number: 22126076
+## student name: Lujia Liu
 
-roughly 15,000 images in the test set.
-
-train.csv
-
-image_id the image file name. 
+roughly 15,000 images in test set
 
 label the ID code for the disease：
 
-0
+0: "Cassava Bacterial Blight (CBB)"
 
-1
+1: "Cassava Brown Streak Disease (CBSD)"
 
-2
+2: "Cassava Green Mottle (CGM)"
 
-3
+3: "Cassava Mosaic Disease (CMD)"
 
-4
+4: "Healthy"
+
+# import required libraries
+
+### import numpy as np
+
+### import glob
+
+### import cv2
+
+### import os
+
+### import pandas as pd
+
+### import matplotlib.pyplot as plt
+
+### import shutil
+
+### import paddle
+
+### import math
+
+### from paddle.static import InputSpec
+
+### from visualdl import LogWriter
 
 
-#import required libraries
-import numpy as np
+## System environment 
 
-import glob
-
-import cv2
-
-import os
-
-import pandas as pd
-
-import matplotlib.pyplot as plt
-
-import shutil
-
-import paddle
-
-import math
-
-from paddle.static import InputSpec
-
-from visualdl import LogWriter
-
-
-# System environment 
 GPU version: RTX4080
 
 CUDA version: 10.2
